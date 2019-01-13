@@ -153,6 +153,8 @@ namespace ballspace
 		gwindow = nullptr;
 
 		//quit the SDL subsystems
+		TTF_Quit();
+		Mix_Quit();
 		IMG_Quit();
 		SDL_Quit();
 	}
